@@ -1,0 +1,26 @@
+{
+  "name": "zheilbron.com.2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "moment": "^2.24.0",
+    "tailwindcss": "^1.3.5"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.2",
+    "prism-themes": "^1.4.0",
+    "vuepress": "^1.4.1",
+    "webpack-bundle-analyzer": "^3.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
