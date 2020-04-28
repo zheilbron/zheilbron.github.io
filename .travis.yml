@@ -11,6 +11,9 @@ node_js:
 script:
   - npm run docs:build
 
+before_deploy:
+  - "echo zheilbron.com > CNAME"
+
 branches:
   only:
     - develop
