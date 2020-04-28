@@ -1,0 +1,23 @@
+os:
+  osx
+
+language: node_js
+node_js:
+  - 7
+
+script:
+  - npm run docs:build
+
+branches:
+  only:
+    - develop
+
+git:
+  quiet: true
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $github_token
+  keep_history: true
+  local_dir: docs/.vuepress/dist
