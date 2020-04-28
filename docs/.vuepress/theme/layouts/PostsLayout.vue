@@ -19,7 +19,7 @@
             <p
               class="mt-2 font-serif"
             >{{ p.frontmatter.description }} {{ p.frontmatter.description }}</p>
-            <router-link class="mt-4 text-gray-600" :to="p.path">Read more...</router-link>
+            <router-link class="inline-block mt-4 text-gray-600" :to="p.path">Read more...</router-link>
           </div>
         </div>
       </div>
