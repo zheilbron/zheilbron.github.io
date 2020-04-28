@@ -19,11 +19,10 @@ git:
   quiet: true
 
 deploy:
-  strategy: git
-  provider: pages
-  cleanup: false
+  provider: pages:git
   token: $github_token
+  edge: true
+  cleanup: false
   keep_history: true
   local_dir: docs/.vuepress/dist
-  on:
-    branch: master
+  target_branch: master
